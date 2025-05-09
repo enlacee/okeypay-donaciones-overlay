@@ -15,7 +15,7 @@ Solo necesitas la URL del link de OkeyPay Donaciones:
 
 ## ⚙️ ¿Cómo se usa?
 
-1. 📱 Descarga la app [OkeyPay](https://okeypay.anibalcopitan.com) en el mismo teléfono donde ya tienes Yape instalado y registra tu cuenta.
+1. 📱 Descarga la app [OkeyPay](https://okeypay.anibalcopitan.com) en el mismo teléfono donde ya tienes [Yape](https://www.yape.com.pe/) instalado y registra tu cuenta.
 2. Pruébalo con una donación de prueba.
 3. 🎥 Agrega el **link de tu overlay** en OBS/TikTok Live como navegador/link.
 4. 🟣 ¡Listo! Cada donación será visible al instante.
@@ -26,13 +26,13 @@ Solo necesitas la URL del link de OkeyPay Donaciones:
 - Creadores que aún no tienen habilitado PayPal o Stripe.
 - Gente que quiere algo **simple, local y rápido.**
 
-## 👤 Creado por Aníbal Copitán
+### 👤 Creado por Aníbal Copitán
 
-    - Blog: [blog.anibalcopitan.com](https://blog.anibalcopitan.com)
-    · TikTok: [@anibal.linux](https://www.tiktok.com/@anibal.linux)
+- Blog: [blog.anibalcopitan.com](https://blog.anibalcopitan.com)
+- TikTok: [@anibal.linux](https://www.tiktok.com/@anibal.linux)
 
-## 🤝 Colaboradores / Sponsors
+### 🤝 Colaboradores / Sponsors
 
-    1. ...
-    2. ...
-    3. ...
+1. ...
+2. ...
+3. ...
