@@ -1,13 +1,13 @@
 <?php
 
 
-$data['id'] = "121211231-1223";
-$data['message'] = "Pepe A. Rios N. te envió un pago por S/ 5. El cód. de seguridad es: 541";
+// $data['id'] = "121211231-1223";
+// $data['message'] = "Pepe A. Rios N. te envió un pago por S/ 5. El cód. de seguridad es: 541";
 
 
-if (true /*$_SERVER['REQUEST_METHOD'] === 'POST'*/) {
+if ( $_SERVER['REQUEST_METHOD'] === 'POST') {
     // Captura los datos de la solicitud POST
-    // $data = $_POST;
+    $data = $_POST;
 
     /**
     * Logs
