@@ -3,9 +3,9 @@ if (!empty($_GET['id'])):
     $id = preg_replace('/[^a-zA-Z0-9_\-]/', '', $_GET['id']);
     $archivoJson = $id . '.json';
 
-    // if (!file_exists($archivoJson)) {
-    //     file_put_contents($archivoJson, ""); // crea archivoJson vacío
-    // }
+    if (!file_exists($archivoJson)) {
+        file_put_contents($archivoJson, "💸 Esperando el primer pago en vivo...\n"); // crea archivoJson vacío
+    }
 ?>
 <!DOCTYPE html>
 <html>
