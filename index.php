@@ -3,9 +3,9 @@ if (!empty($_GET['id'])):
     $id = preg_replace('/[^a-zA-Z0-9_\-]/', '', $_GET['id']);
     $archivoJson = $id . '.json';
 
-    if (!file_exists($archivoJson)) {
-        file_put_contents($archivoJson, ""); // crea archivoJson vacío
-    }
+    // if (!file_exists($archivoJson)) {
+    //     file_put_contents($archivoJson, ""); // crea archivoJson vacío
+    // }
 ?>
 <!DOCTYPE html>
 <html>
@@ -41,16 +41,18 @@ if (!empty($_GET['id'])):
         fetch('<?php echo $archivoJson; ?>?_=' + new Date().getTime()) // evitar caché
             .then(response => response.text())
             .then(data => {
-                // const nuevasLineas = data.trim().split('\n');
-                const nuevasLineas = data.trim().split('\n').filter(Boolean); // elimina líneas vacías
+                console.log('data');
+                console.log(data);
+                const nuevasLineas = data.trim().split('\n');
 
-                if (nuevasLineas.length === 0) {
-                    document.getElementById('pago').innerHTML = `
-                        <span style="">💸 Esperando el primer pago en vivo...</span>
-                        <span style="animation: blink 1s infinite;">⚡</span>
-                    `;
-                    return;
-                }
+                // const nuevasLineas = data.trim().split('\n').filter(Boolean); // elimina líneas vacías
+                // if (nuevasLineas.length === 0) {
+                //     document.getElementById('pago').innerHTML = `
+                //         <span style="">💸 Esperando el primer pago en vivo...</span>
+                //         <span style="animation: blink 1s infinite;">⚡</span>
+                //     `;
+                //     return;
+                // }
                 
                 if (nuevasLineas.length > lineas.length) {
                     lineas = nuevasLineas;
