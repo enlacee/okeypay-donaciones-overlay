@@ -36,3 +36,9 @@ Solo necesitas la URL del link de OkeyPay Donaciones:
 1. ...
 2. ...
 3. ...
+
+### preview overlay
+
+![Screenshot overlay](./docs/README/Screenshot_20250704_160700.png)
+
+
