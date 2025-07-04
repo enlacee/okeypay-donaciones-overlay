@@ -37,6 +37,12 @@ Solo necesitas la URL del link de OkeyPay Donaciones:
 2. ...
 3. ...
 
+### Arquitectura
+
+![Screenshot overlay](./docs/README/Screenshot_20250704_172306.png)
+
+
+
 ### preview overlay
 
 ![Screenshot overlay](./docs/README/Screenshot_20250704_160700.png)
