@@ -3,12 +3,14 @@
 /*
 * Simple validation by user agent
 */
+
+/*  bug error: xq no esta funcionando esta validacion usar otro
 $userAgent = $_SERVER['HTTP_USER_AGENT'] ?? '';
 if (stripos($userAgent, 'Apps Script') === false) {
     http_response_code(403);
     die('Acceso denegado.');
 }
-
+*/
 
 // $data['id'] = "121211231-1223";
 // $data['message'] = "Pepe A. Rios N. te envió un pago por S/ 5. El cód. de seguridad es: 541";
